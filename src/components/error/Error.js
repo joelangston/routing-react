@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from "react"
 
-function Error(props) {
+function Error () {
     return (
-        <div className="404">
-            <h1> This Page Does Not Exist.</h1>
+        <div>
+            <h1>404 NOT FOUND</h1>
         </div>
-    );
+    )
 }
-export default Error;
+
+export default Error

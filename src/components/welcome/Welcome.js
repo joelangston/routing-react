@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-function Welcome(props){
-    return(
+function Welcome(props) {
+    return (
         <div className="Welcome">
-            <h1>Welcome, {props.name}!</h1>
+            Welcome, {props.name === undefined ? props.match.params.name : props.name}!
         </div>
     )
 }

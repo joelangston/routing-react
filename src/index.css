@@ -48,3 +48,6 @@ button {
   width: 100%;
 }
 
+.Navigation, ul{ list-style: none;
+
+}
